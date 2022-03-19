@@ -77,7 +77,7 @@ asciinema rec
 ```shell
 操作代码：sudo apt install tmux
 ```
-![tmux_installation_video(Ubuntu20.04)](https://asciinema.org/a/0R1tV89wQeRW6mcrvuLAlKniv.svg)
+[![asciicast](https://asciinema.org/a/0R1tV89wQeRW6mcrvuLAlKniv.svg)](https://asciinema.org/a/0R1tV89wQeRW6mcrvuLAlKniv)
 
 
 
@@ -85,7 +85,7 @@ asciinema rec
 ```shell
 操作代码：sudo apt-cache show tmux
 ```
-![tmux_installation_path_video(Ubuntu20.04)](https://asciinema.org/a/KpqVOR6KJ5yATqY5ZsrPBL3di.svg)
+[![asciicast](https://asciinema.org/a/KpqVOR6KJ5yATqY5ZsrPBL3di.svg)](https://asciinema.org/a/KpqVOR6KJ5yATqY5ZsrPBL3di)
 
 
 
@@ -93,7 +93,7 @@ asciinema rec
 ```shell
 操作代码：sudo apt install tshark
 ```
-![tshark_installation_video(Ubuntu20.04)](https://asciinema.org/a/BP5n3KcHxmv0Rh6uU7ylm7pbG.svg)
+[![asciicast](https://asciinema.org/a/BP5n3KcHxmv0Rh6uU7ylm7pbG.svg)](https://asciinema.org/a/BP5n3KcHxmv0Rh6uU7ylm7pbG)
 
 
 
@@ -101,7 +101,7 @@ asciinema rec
 ```shell
 操作代码：sudo apt-cache show tshark
 ```
-![tshark_installation_path_video(Ubuntu20.04)](https://asciinema.org/a/4e4MR8XN7wundo1UORwwwy9mq.svg)
+[![asciicast](https://asciinema.org/a/4e4MR8XN7wundo1UORwwwy9mq.svg)](https://asciinema.org/a/4e4MR8XN7wundo1UORwwwy9mq)
 
 
 
@@ -111,8 +111,7 @@ asciinema rec
 sudo apt-get remove tshark (删除软件包而保留软件的配置文件)
 sudo apt-get purge tshark (同时清除软件包和软件的配置文件)
 ```
-![tshark_remove_video(Ubuntu20.04)](https://asciinema.org/a/mswVOUV9tTidfLPY8FhJjzKml.svg)
-
+[![asciicast](https://asciinema.org/a/mswVOUV9tTidfLPY8FhJjzKml.svg)](https://asciinema.org/a/mswVOUV9tTidfLPY8FhJjzKml)
 
 
 
@@ -123,7 +122,7 @@ sudo apt-get purge tshark (同时清除软件包和软件的配置文件)
 ```shell
 操作代码：yum install tmux
 ```
-![tmux_installation_video(CentOS7.7)](https://asciinema.org/a/CCs0nPRMYn3MAu8kRShX6QzXV.svg)
+[![asciicast](https://asciinema.org/a/CCs0nPRMYn3MAu8kRShX6QzXV.svg)](https://asciinema.org/a/CCs0nPRMYn3MAu8kRShX6QzXV)
 
 
 
@@ -131,23 +130,21 @@ sudo apt-get purge tshark (同时清除软件包和软件的配置文件)
 ```shell
 操作代码：rpm -qal | grep tmux
 ```
-![tmux_installation_path_video(CentOS7.7)](https://asciinema.org/a/zHmXnSHJRQ8WKhgyf6aLia15I.svg)
-
+[![asciicast](https://asciinema.org/a/zHmXnSHJRQ8WKhgyf6aLia15I.svg)](https://asciinema.org/a/zHmXnSHJRQ8WKhgyf6aLia15I)
 
 
 - 安装 `tshark`
 ```shell
 操作代码：yum install wireshark(在CentOS中，tshark包含在wireshark中，因此只需安装wireshark。)
 ```
-![wireshark_installation_video(CentOS7.7)](https://asciinema.org/a/8IPKlpqMBNkJ9w36pDRm9bx96.svg)
-
+[![asciicast](https://asciinema.org/a/8IPKlpqMBNkJ9w36pDRm9bx96.svg)](https://asciinema.org/a/8IPKlpqMBNkJ9w36pDRm9bx96)
 
 
 - 查看 `tshark`安装路径
 ```shell
 操作代码：rpm -qal | grep wireshark
 ```
-![wireshark_installation_path_video(CentOS7.7)](https://asciinema.org/a/eZPJjt6R0tDJJfXe70XmYsWSX.svg)
+[![asciicast](https://asciinema.org/a/eZPJjt6R0tDJJfXe70XmYsWSX.svg)](https://asciinema.org/a/eZPJjt6R0tDJJfXe70XmYsWSX)
 
 
 
@@ -156,7 +153,7 @@ sudo apt-get purge tshark (同时清除软件包和软件的配置文件)
 操作代码：
 yum -y remove wireshark
 ```
-![wireshark_remove_video(CentOS7.7)](https://asciinema.org/a/9nBCSv8VNA7xkLqkkie0cMopf.svg)
+[![asciicast](https://asciinema.org/a/9nBCSv8VNA7xkLqkkie0cMopf.svg)](https://asciinema.org/a/9nBCSv8VNA7xkLqkkie0cMopf)
 
 
 
@@ -180,7 +177,7 @@ cd /tmp && for i in $(seq 0 1024);do dir="test-$RANDOM";mkdir "$dir";echo "$RAND
 ```shell
 操作代码：sudo find ./ -type f -name "*666*"
 ```
-![666_in_file_name（Ubuntu20.04）]( https://asciinema.org/a/ajI6CXva30n6DAcplMHLvoU9z.svg)
+[![asciicast](https://asciinema.org/a/ajI6CXva30n6DAcplMHLvoU9z.svg)](https://asciinema.org/a/ajI6CXva30n6DAcplMHLvoU9z)
 
 
 
@@ -189,7 +186,7 @@ cd /tmp && for i in $(seq 0 1024);do dir="test-$RANDOM";mkdir "$dir";echo "$RAND
 操作代码：sudo grep -r "666" ./ --exclude=*.cast
 （利用"--exclude"解决因asciinema录制时会在当前目录中写入后缀为".cast"文件而产生乱码的问题）
 ```
-![666_in_file_content（Ubuntu20.04）](https://asciinema.org/a/zckrr9MLslShTDkKsNKNc77KS.svg)
+[![asciicast](https://asciinema.org/a/zckrr9MLslShTDkKsNKNc77KS.svg)](https://asciinema.org/a/zckrr9MLslShTDkKsNKNc77KS)
 
 
 
@@ -201,7 +198,7 @@ cd /tmp && for i in $(seq 0 1024);do dir="test-$RANDOM";mkdir "$dir";echo "$RAND
 ```shell
 操作代码：sudo find ./ -type f -name "*666*"
 ```
-![666_in_file_name（CentOS7.7）](https://asciinema.org/a/bSD7zRzdWosJrZw3ONNNbeKlT.svg)
+[![asciicast](https://asciinema.org/a/bSD7zRzdWosJrZw3ONNNbeKlT.svg)](https://asciinema.org/a/bSD7zRzdWosJrZw3ONNNbeKlT)
 
 
 
@@ -209,7 +206,7 @@ cd /tmp && for i in $(seq 0 1024);do dir="test-$RANDOM";mkdir "$dir";echo "$RAND
 ```shell
 操作代码：sudo grep -r "666" ./ --exclude=*.cast
 ```
-![666_in_file_content（CentOS7.7）](https://asciinema.org/a/gQtiFd9n9r8vnILsTLh6GZ9wH.svg)
+[![asciicast](https://asciinema.org/a/gQtiFd9n9r8vnILsTLh6GZ9wH.svg)](https://asciinema.org/a/gQtiFd9n9r8vnILsTLh6GZ9wH)
 
 
 ### 三、【文件压缩与解压缩】练习课件中 [文件压缩与解压缩](https://c4pr1c3.github.io/LinuxSysAdmin/chap0x02.md.html#/12/1) 一节所有提到的压缩与解压缩命令的使用方法
@@ -232,8 +229,7 @@ ls -l (查看是否上传成功)
     ```shell
     操作代码：gzip -dv 文件 
     ```
-    ![gzip(Ubuntu20.04)](https://asciinema.org/a/sw9xE5uAp0skGeVyHVf8G7BZT.svg)
-
+    [![asciicast](https://asciinema.org/a/sw9xE5uAp0skGeVyHVf8G7BZT.svg)](https://asciinema.org/a/sw9xE5uAp0skGeVyHVf8G7BZT)
 
 
 - **bzip2**
@@ -246,8 +242,7 @@ ls -l (查看是否上传成功)
     ```shell
     操作代码：bzip2 -d 文件 
     ```
-    ![bzip2(Ubuntu20.04)](https://asciinema.org/a/h9Ki95c6qg3MwvjUPzk7RIE5Z.svg)
-
+    [![asciicast](https://asciinema.org/a/h9Ki95c6qg3MwvjUPzk7RIE5Z.svg)](https://asciinema.org/a/h9Ki95c6qg3MwvjUPzk7RIE5Z)
 
 
 - **zip**
@@ -260,7 +255,7 @@ ls -l (查看是否上传成功)
     ```shell
     操作代码：unzip 文件.zip 
     ```
-    ![zip(Ubuntu20.04)](https://asciinema.org/a/wJvGPdyGdq3Gd4sorSusbMVFV.svg)
+    [![asciicast](https://asciinema.org/a/wJvGPdyGdq3Gd4sorSusbMVFV.svg)](https://asciinema.org/a/wJvGPdyGdq3Gd4sorSusbMVFV)
 
 
 - **tar**
@@ -273,7 +268,7 @@ ls -l (查看是否上传成功)
     ```shell
     操作代码：tar -xzvf test1.tar.gz 
     ```
-    ![tar(Ubuntu20.04)](https://asciinema.org/a/XeeJ3RCKUddnTiK2dJ6KlsuYp.svg)
+    [![asciicast](https://asciinema.org/a/XeeJ3RCKUddnTiK2dJ6KlsuYp.svg)](https://asciinema.org/a/XeeJ3RCKUddnTiK2dJ6KlsuYp)
 
 
 
@@ -287,7 +282,7 @@ ls -l (查看是否上传成功)
     ```shell
     操作代码：7z x 文件.7z
     ```
-    ![7z(Ubuntu20.04)](https://asciinema.org/a/Y4gfpHHQvccuwmmBFUt6XkBXa.svg)
+    [![asciicast](https://asciinema.org/a/Y4gfpHHQvccuwmmBFUt6XkBXa.svg)](https://asciinema.org/a/Y4gfpHHQvccuwmmBFUt6XkBXa)
 
 
 - **rar (p7zip-rar / unrar-free)**
@@ -302,7 +297,7 @@ ls -l (查看是否上传成功)
     rar x 文件.rar 
     unrar e 文件.rar
     ```
-    ![rar(Ubuntu20.04)](https://asciinema.org/a/iNwXzLMjuzxZFIXFAPFj6I4sr.svg)
+    [![asciicast](https://asciinema.org/a/iNwXzLMjuzxZFIXFAPFj6I4sr.svg)](https://asciinema.org/a/iNwXzLMjuzxZFIXFAPFj6I4sr)
 
 
 
@@ -314,7 +309,7 @@ ls -l (查看是否上传成功)
 
 ### 四、【跟练】 [子进程管理实验](https://asciinema.org/a/f3ux5ogwbxwo2q0wxxd0hmn54)
 
-![跟练子进程管理实验（Ubuntu20.04）](https://asciinema.org/a/uXbRQYDk0AoqTEsyHEE81EMog.svg)
+[![asciicast](https://asciinema.org/a/uXbRQYDk0AoqTEsyHEE81EMog.svg)](https://asciinema.org/a/uXbRQYDk0AoqTEsyHEE81EMog)
 
 
 
@@ -346,8 +341,7 @@ cat /proc/cpuinfo | grep "cpu cores" | uniq
 ```shell
 操作代码：sudo fdisk -l | grep Disk 
 ```
-![hardware_info（Ubuntu20.04）](https://asciinema.org/a/3oF0yqIYgUZ0whTt0VKpnGTRI.svg)
-
+[![asciicast](https://asciinema.org/a/3oF0yqIYgUZ0whTt0VKpnGTRI.svg)](https://asciinema.org/a/3oF0yqIYgUZ0whTt0VKpnGTRI)
 
 ###### 云环境（CentOS7.7）
 
@@ -378,7 +372,7 @@ df -h
 (展示文件系统信息)
 ```
 
-![hardware_info（CentOS7.7）](https://asciinema.org/a/JhAxQhlGHnNe9jAfuyxKYO5Gu.svg)
+[![asciicast](https://asciinema.org/a/477945.svg)](https://asciinema.org/a/477945)
 
 
 
@@ -419,6 +413,8 @@ df -h
 - **在进行 【文件解压缩】 部分实验时，不知道命令的解压缩语法。**
  答：通过上网查询相关的命令用法的文章，但是版本上有些出入，按照系统指令更新了一些操作。
 
+- **实验二的作业已经交到GitHub上了，但是asciinema视频 我在GitHub上打不开是为什么，具体情况是实验报告中有略缩图，能点击跳转到另一个网页，但是却不能够播放，打开的不是asciinema网站。附上我的`视频链接代码` 和 `结果`截图。**
+ 答：果然就是附链接的写法错了，asciinema的视频make public之后，点击share,有直接给出的markdown路径，可以复制，例如：`[![asciicast](https://asciinema.org/a/477945.svg)](https://asciinema.org/a/477945)`。
 
 -------------------------------------
 
@@ -438,3 +434,4 @@ df -h
 
 - [ping百度时失败了的问题](http://courses.cuc.edu.cn/course/82669/forum#/topics/236836?show_sidebar=false&scrollTo=topic-236836&pageIndex=1&pageCount=4&topicIds=237646,237037,236836,236686,235699,235129,232900,232747,232663,232636&predicate=lastUpdatedDate&reverse)
 
+- [linux中查看CPU型号,内存大小,硬盘空间的命令](https://www.cnblogs.com/chong-zuo3322/p/14133802.html)
