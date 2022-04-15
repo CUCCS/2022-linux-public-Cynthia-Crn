@@ -1,0 +1,49 @@
+language: bash
+before_install:
+  - sudo apt-get update
+  - sudo apt-get install -y shellcheck
+  - sudo apt-get install imagemagick
+  - sudo apt-get install p7zip-full
+  - sudo apt-get install ghostscript
+  - ls -l
+script:
+  - wget "https://c4pr1c3.gitee.io/linuxsysadmin/exp/chap0x04/worldcupplayerinfo.tsv"
+  - wget "https://c4pr1c3.github.io/LinuxSysAdmin/exp/chap0x04/web_log.tsv.7z"
+  - 7z x -ot web_log.tsv.7z
+  - ls -l
+  - pwd
+  - cd chap0x04/  
+  - cd shellScript/ 
+  - echo "=============================="
+  - echo Task1
+  - bash imagebatch.sh -h
+  - bash imagebatch.sh -q 50
+  - bash imagebatch.sh -r 90
+  - bash imagebatch.sh -w 5 crn
+  - bash imagebatch.sh -p CRN
+  - bash imagebatch.sh -s CUC
+  - bash imagebatch.sh -t
+  - echo "=============================="
+  - echo Task2.1
+  - bash 2014worldcupplayerinforbatch.sh -h
+  - bash 2014worldcupplayerinforbatch.sh -a 
+  - bash 2014worldcupplayerinforbatch.sh -p 
+  - bash 2014worldcupplayerinforbatch.sh -l 
+  - bash 2014worldcupplayerinforbatch.sh -s
+  - bash 2014worldcupplayerinforbatch.sh -o
+  - bash 2014worldcupplayerinforbatch.sh -y 
+  - echo "=============================="
+  - echo Task2.2
+  - bash web_logbatch.sh -h
+  - bash web_logbatch.sh -t 
+  - bash web_logbatch.sh -i
+  - bash web_logbatch.sh -u 
+  - bash web_logbatch.sh -c 
+  - bash web_logbatch.sh -f 
+  - bash web_logbatch.sh -s /software/winvn/winvn.html/bluemarb.gif
+  - shellcheck imagebatch.sh
+  - shellcheck 2014worldcupplayerinforbatch.sh
+  - shellcheck web_logbatch.sh
+notifications:
+  email:
+    on_success: never
