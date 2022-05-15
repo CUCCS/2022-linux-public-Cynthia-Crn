@@ -114,7 +114,7 @@ $ sudo ufw allow 'Nginx HTTP'
 $ sudo ufw status
 ```
 - 在主机访问80端口发现可以访问Nginx初始页面。
-![nginx](img/nginx.png)
+![nginx](img/nginx.png)<br/>
 *心得：刚开始一直打开的都是apache2的页面，试过停止apache2服务，但是无济于事，最后简单粗暴地把apache2卸载之后终于成功打开了Nginx初始页面*
 
 **2.安装VeryNginx**
@@ -378,20 +378,18 @@ Password: password
 
 - 配置`wp.sec.cuc.edu.cn`和`dvwa.sec.cuc.edu.cn`
   - 添加Matcher
-  ![dvwa_proxy_config](img/dvwa_proxy_config.png)
-   <br/>
+  ![dvwa_proxy_config](img/dvwa_proxy_config.png)  <br/>
   ![wp_proxy_config](img/wp_proxy_config.png)
 
  - 添加Up Stream节点以及添加代理通行证
- ![Up_Stream](img/Up_Stream.png)
- <br/>
+ ![Up_Stream](img/Up_Stream.png)<br/>
  ![Proxy_Pass](img/Proxy_Pass.png)
 
 #### 安全加固要求
 
 1.使用IP地址方式均无法访问上述任意站点，并向访客展示自定义的**友好错误提示信息页面-1**
 
-- 添加Matcher
+- 添加Matcher<br/>
 ![ipmat](img/ipmat.png)
 - 添加Response
 ![ip_res](img/ip_res.png)
@@ -402,7 +400,7 @@ Password: password
 
 2.Damn Vulnerable Web Application (DVWA)只允许白名单上的访客来源IP，其他来源的IP访问均向访客展示自定义的**友好错误提示信息页面-2**
 
-- 添加Matcher
+- 添加Matcher<br/>
 ![white_ip_dvwa_matcher](img/white-ip-dvwa_matcher.png)
 - 添加Response
 ![whitelist_resp](img/whitelist_resp.png)
@@ -423,9 +421,9 @@ Password: password
 
 
 4.通过配置VeryNginx的Filter规则实现对Damn Vulnerable Web Application (DVWA)的SQL注入实验在低安全等级条件下进行防护
-- 添加Matcher
+- 添加Matcher<br/>
 ![dvwa-sql_matcher](img/dvwa-sql_matcher.png)
-- 添加Filter
+- 添加Filter<br/>
 ![dvwa-sql_filter](img/dvwa-sql_filter.png)
 - 结果：
 ![sql_outcome](img/sql_outcome.png)
@@ -433,7 +431,7 @@ Password: password
 #### VeryNginx配置要求
 
 1.VeryNginx的Web管理页面仅允许白名单上的访客来源IP，其他来源的IP访问均向访客展示自定义的**友好错误提示信息页面-3**
-- 添加Matcher
+- 添加Matcher<br/>
 ![vnmat](img/vnmat.png)
 - 添加Response
 ![vnres](img/vnres.png)
@@ -457,9 +455,9 @@ Password: password
    ![speed_outcome](img/speed_outcome.png)
 
   - 禁止curl访问
-    - 添加Matcher
+    - 添加Matcher<br/>
     ![curlmat](img/curlmat.png)
-    - 添加Filter
+    - 添加Filter<br/>
     ![curlfilter](img/curlfilter.png)
     - 结果：
     ![forbid_curl_outcome](img/forbid_curl_outcome.png) 
